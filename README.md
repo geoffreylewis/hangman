@@ -2,13 +2,19 @@
 
 ## Software Summary
 
-Only using Python, this program will allow a user to play the "Hangman" game.  
+Only using Python, this program will allow a player to play the "Hangman" game.  
 
 ## Built With
 
 * Python 3.11
 
 ## Version History 
+
+**Version 0.2**  
+*5/10/2024*  
+* Added a list of words to randomly select from.
+* Added the function to perform the random word selection.
+* Added a "for loop" that, for right now, will analyze one guess from the player against the selected word.
 
 **Version 0.1**  
 *5/9/2024*  
