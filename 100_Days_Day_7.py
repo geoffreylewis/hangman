@@ -20,15 +20,26 @@ list_of_words = ["abruptly", "absurd", "abyss", "avenue", "awkward", "bagpipes",
 
 # Random word from the list is selected.
 selected_word = random.choice(list_of_words)
-print(selected_word)
+print(selected_word) # TESTING CODE
+
+# Empty list for eventual "_" characters.
+hidden_word_underscores = []
+for char in selected_word:
+    hidden_word_underscores.append("_")
+print(hidden_word_underscores) # TESTING CODE
 
 # Guessing letters.
-player_guess = input("Guess a letter: ")
+player_guess = str(input("Guess a letter: ").lower())
+letter_position = 0
 for letter in selected_word:
     if player_guess == letter:
-        print("Right")
+        print("Right") # TESTING CODE
+        hidden_word_underscores[letter_position] = letter
+        letter_position += 1
+        print(hidden_word_underscores) # TESTING CODE
     else:
-        print("Wrong")
+        letter_position += 1
+        print("Wrong") # TESTING CODE
 
 # End of project.
 print("You win!  You saved your stick figure man!")
