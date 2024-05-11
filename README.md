@@ -11,6 +11,11 @@ Only using Python, this program will allow a player to play the "Hangman" game.
 ## Version History 
 
 **Version 0.2**  
+*5/11/2024*  
+* Added an empty list that will hold the "_" characters for the selected word.
+* Added more guessing functionality to the "for loop" that will replace "_" characters with correctly-guessed letters.
+
+**Version 0.2**  
 *5/10/2024*  
 * Added a list of words to randomly select from.
 * Added the function to perform the random word selection.
