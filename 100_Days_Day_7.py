@@ -29,17 +29,18 @@ for char in selected_word:
 print(hidden_word_underscores) # TESTING CODE
 
 # Guessing letters.
-player_guess = str(input("Guess a letter: ").lower())
-letter_position = 0
-for letter in selected_word:
-    if player_guess == letter:
-        print("Right") # TESTING CODE
-        hidden_word_underscores[letter_position] = letter
-        letter_position += 1
-        print(hidden_word_underscores) # TESTING CODE
-    else:
-        letter_position += 1
-        print("Wrong") # TESTING CODE
+while "_" in hidden_word_underscores:
+    player_guess = str(input("Guess a letter: ").lower())
+    letter_position = 0
+    for letter in selected_word:
+        if player_guess == letter:
+            print("Right") # TESTING CODE
+            hidden_word_underscores[letter_position] = letter
+            letter_position += 1
+        else:
+            letter_position += 1
+            print("Wrong") # TESTING CODE
+    print(hidden_word_underscores) # TESTING CODE
 
 # End of project.
 print("You win!  You saved your stick figure man!")
