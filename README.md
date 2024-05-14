@@ -10,6 +10,16 @@ Only using Python, this program will allow a player to play the "Hangman" game.
 
 ## Version History 
 
+**Version 1.0**  
+*5/14/2024*  
+* Program is functional.
+* Added a banner/logo to the beginning of the game.
+* Added additional random words to select from.
+* Removed various test code.
+* Added a list that will hold letters that have already been guessed.
+* Created additional "if/elif" statements for the "while" loop that will keep track of guessed letters.
+* Tweaked the language for the end of the game.
+
 **Version 0.5**  
 *5/13/2024*  
 * Added an "if" statement that keeps track of the player's wrong guesses.
@@ -44,3 +54,5 @@ Only using Python, this program will allow a player to play the "Hangman" game.
 ## Acknowledgements
 
 In my ongoing quest to refresh my Python skills and stay sharp, I'm working my way through the Udemy course "100 Days of Code: The Complete Python Pro Bootcamp".  Shout out to Dr. Angela Yu and Udemy.
+
+An additional shout out to whomever created the ASCII art (copied from https://replit.com/@appbrewery/Day-7-Hangman-5-Start#hangman_art.py).
