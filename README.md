@@ -10,6 +10,11 @@ Only using Python, this program will allow a player to play the "Hangman" game.
 
 ## Version History 
 
+**Version 0.5**  
+*5/13/2024*  
+* Added an "if" statement that keeps track of the player's wrong guesses.
+* Added counters that will display the appropriate ASCII images based off guesses.
+
 **Version 0.4**  
 *5/12/2024*  
 * Added a "while" loop that will allow the player to guess more than just one letter.
